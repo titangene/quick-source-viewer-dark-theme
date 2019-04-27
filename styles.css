@@ -1,0 +1,294 @@
+body {
+  font-family: helvetica;
+  font-size: 80%;
+  background: #1c1c1c;
+}
+body.err #srcview {
+  background: #7d1212;
+}
+h2 {
+  text-shadow: none;
+  color: #dfdfdf;
+}
+h2 >i {
+  color: #dfdfdf;
+}
+a {
+  color: #7bf;
+}
+#list a:hover {
+  background: rgb(36, 36, 104) !important;
+}
+li,
+li.inline > a,
+li.inline > a > span,
+li>p {
+  color: #dfdfdf;
+}
+li>p>span.cache {
+  color: #c586c0;
+}
+li.hi > a {
+  background: rgba(255, 255, 0, 0.32);
+}
+li.sel > a:first-child {
+  background: rgb(81, 81, 114);
+}
+.dynamic {
+  color: #4ec9b0;
+}
+#tips:hover {
+  background: rgba(255, 255, 0, 0.32);
+}
+#tips p {
+  color: #dfdfdf;
+}
+
+/* code font */
+code {
+  font-family: menlo,lucida console,monospace;
+  font-size: 12px;
+}
+
+/* size of sidebar */
+#list {
+  width: 32%;
+  background: #1c1c1c;
+}
+#srcview {
+  margin-left: 32.5%;
+  width: 67%;
+  background: #1e1e1e;
+}
+
+#src ol {
+  color: #858585;
+}
+
+#srcview >a {
+  color: #fff;
+  background-color: #337ab7;
+}
+#srcview >a.sel, #srcview >a:active {
+  color: #fff;
+  background: #5cb85c;
+}
+
+pre#src code {
+  background: #1e1e1e;
+}
+
+pre code {
+  color: #dfdfdf;
+}
+
+pre .tag, code .tag {
+  color: #dfdfdf;
+}
+
+pre .comment,
+pre .template_comment,
+pre .javadoc,
+pre .comment * {
+  color: #6a9955;
+}
+
+pre .keyword,
+pre .method,
+pre .list .title,
+pre .nginx .title,
+pre .tag .title,
+pre .setting .value,
+pre .winutils,
+pre .tex .command,
+pre .http .title,
+pre .request,
+pre .status {
+  color: #569CD6;
+}
+
+pre .envvar,
+pre .tex .special {
+  color: #660;
+}
+
+pre .string,
+pre .tag .value,
+pre .cdata,
+pre .filter .argument,
+pre .attr_selector,
+pre .apache .cbracket,
+pre .date {
+  color: #D69D85;
+}
+
+pre .regexp {
+  color: #d16969;
+}
+
+pre .sub .identifier,
+pre .pi,
+pre .tag,
+pre .tag .keyword,
+pre .decorator,
+pre .ini .title,
+pre .shebang,
+pre .input_number,
+pre .hexcolor,
+pre .rules .value,
+pre .literal,
+pre .symbol,
+pre .ruby .symbol .string,
+pre .ruby .symbol .keyword,
+pre .ruby .symbol .keymethods,
+pre .number {
+  color: #dfdfdf;
+}
+
+pre .class .title,
+pre .haskell .type,
+pre .smalltalk .class,
+pre .javadoctag,
+pre .yardoctag,
+pre .phpdoc,
+pre .typename,
+pre .tag .attribute,
+pre .doctype,
+pre .class .id,
+pre .setting,
+pre .params,
+pre .variable {
+  color: #9CDCFE;
+}
+
+pre .built_in {
+  color: #4ec9b0;
+}
+
+pre .rules .property,
+pre .pseudo,
+pre .subst {
+  color: #cbb37a;
+}
+
+pre .rules .keyword {
+  color: #C5AF75;
+}
+
+pre .annotation,
+pre .apache .sqbracket,
+pre .nginx .built_in {
+  color: #9B859D;
+}
+
+pre .preprocessor,
+pre .preprocessor * {
+  color: #444;
+}
+
+pre .tex .formula {
+  background-color: #EEE;
+  font-style: italic;
+}
+
+pre .diff .header,
+pre .chunk {
+  color: #808080;
+  font-weight: bold;
+}
+
+pre .diff .change {
+  background-color: #BCCFF9;
+}
+
+pre .addition {
+  background-color: #BAEEBA;
+}
+
+pre .deletion {
+  background-color: #FFC8BD;
+}
+
+pre .comment .yardoctag {
+  font-weight: bold;
+}
+
+/* tomi */
+/* generic comment */
+.language-javascript .function .params,
+.comment {
+  background: transparent;
+}
+.language-javascript .function {
+  font-weight: normal;
+}
+.language-javascript .function .params,
+pre .javascript .function .params {
+  color: #9cdcfe;
+}
+.language-javascript .keyword,
+pre .javascript .keyword {
+  color: #c586c0;
+}
+.language-javascript .literal,
+pre .javascript .literal {
+  color: #569cd6;
+}
+.language-javascript .number,
+pre .javascript .number {
+  color: #b5cea8;
+}
+
+/* css colors */
+pre .css .value .number,
+pre .css .at_rule .number,
+.language-css .rule .value .number {
+  color: #b5cea8;
+}
+pre .css .at_rule .keyword {
+  color: #c586c0;
+}
+pre .css .rule .hexcolor {
+  color: #ce9178;
+}
+pre .css .function,
+.language-css .function {
+  color: #dcdcaa;
+}
+pre .css .class,
+pre .css .id,
+pre .css .at_rule,
+pre .css .pseudo,
+pre .css .tag,
+.language-css .id,
+.language-css .class,
+.language-css .tag,
+.language-css .pseudo {
+  color: #d7ba7d;
+}
+pre .css .attr_selector {
+  color: #9CDCFE;
+}
+pre .css .rule .attribute,
+.language-css .rule .attribute {
+  color: #9CDCFE;
+}
+pre .css .rule .value,
+pre .css .rule .value, .hexcolor,
+.language-css .rule .value,
+.language-css .rule .value .hexcolor {
+  color: #ce9178;
+}
+pre .value .important {
+  color: #569cd6;
+  font-weight: normal;
+}
+.language-css .rule .value {
+  color: #d4d4d4;
+}
+.language-css .tag {
+  font-weight: normal;
+}
+.language-css .pseudo {
+  background: transparent;
+}
